@@ -4,16 +4,23 @@ This is my environment setup for machine learing and python projects. The scient
 ## Python Version 
 For python version, I use whichever version is currently supported by pytorch -> 3.12 right now. 
 *installation* - uv python pin 3.12 
-## Scientific Packages 
+
+## Dependencies 
+*installation* - uv add 
+### Scientific Packages 
 - numpy 
 - matplotlib 
 - scipy 
 - pandas 
 - sympy
+
+## Dev Dependcies 
+*installation* - uv add --dev 
 - jupyter-lab 
 - pytest 
+- ruff 
 
-## Other Packages 
+## Other Dependencies 
 Depending on the project, I usually use one or more of these packages
 ### Machine Learning 
 - scikit-learn 
@@ -40,7 +47,3 @@ Depending on the project, I usually use one or more of these packages
 - elasticsearch (python)
 ### Data Engineering 
 - pyspark 
-
-
-
-

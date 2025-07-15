@@ -3,10 +3,10 @@ This is my environment setup for machine learing and python projects. The scient
 
 ## Python Version 
 For python version, I use whichever version is currently supported by pytorch -> 3.12 right now. 
-*installation* - uv python pin 3.12 
+**installation** - uv python pin 3.12 
 
 ## Dependencies 
-*installation* - uv add 
+**installation** - uv add 
 ### Scientific Packages 
 - numpy 
 - matplotlib 
@@ -15,7 +15,7 @@ For python version, I use whichever version is currently supported by pytorch ->
 - sympy
 
 ## Dev Dependcies 
-*installation* - uv add --dev 
+**installation** - uv add --dev 
 - jupyter-lab 
 - pytest 
 - ruff 

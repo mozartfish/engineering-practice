@@ -1,0 +1,52 @@
+# Python-specific ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+.eggs/
+dist/
+build/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg
+
+# IDE-specific ignores (e.g., VS Code)
+.vscode/
+.idea/
+
+# Jupyter Notebook specific ignores
+.ipynb_checkpoints/
+*.ipynb_checkpoints/ # More robust for subdirectories
+
+# Pytest cache
+.pytest_cache/
+
+# MyPy cache (if you use it)
+.mypy_cache/
+
+# Ruff cache (if Ruff creates one, though often in __pycache__)
+.ruff_cache/
+
+# Logs
+*.log
+logs/
+
+# Data files (often large, should not be committed)
+*.csv
+*.json
+*.pkl
+*.h5
+*.hdf5
+*.parquet
+data/
+processed_data/
+models/ # If you save trained models locally and they're large

@@ -1,6 +1,12 @@
 # Environment Setup 
 This is my environment setup for machine learing and python projects. The scientific packages are what I use for my default setup 
 
+## Package Manager 
+**uv**
+
+## Linter 
+**ruff**
+
 ## Python Version 
 For python version, I use whichever version is currently supported by pytorch -> 3.12 right now. 
 **installation** - uv python pin 3.12 
@@ -16,7 +22,7 @@ For python version, I use whichever version is currently supported by pytorch ->
 
 ## Dev Dependcies 
 **installation** - uv add --dev 
-- jupyter-lab 
+- jupyter-lab ipykernel 
 - pytest 
 - ruff 
 

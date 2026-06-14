@@ -1,6 +1,6 @@
 # engineering-practice
 
-A repo of exercises and practice with a focus on AIML, signals, math.
+A repo of exercises and practice with a focus on AIML, signals, math. My goal is to rework the examples and exercises to use pytorch and modern tooling.
 
 The materials and exercises here were developed by the following people:
 
@@ -10,7 +10,6 @@ The materials and exercises here were developed by the following people:
 - Roger Labbe
 - [Eric Wastl](https://was.tl/)
 - [Meinard Müller](https://www.audiolabs-erlangen.de/fau/professor/mueller)
-
 
 ## COMPLETED
 

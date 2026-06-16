@@ -60,3 +60,4 @@ The materials and exercises here were developed by the following people:
 
 ### Resources 
 [ISMIR Education Materials](https://ismir.net/resources/educational-materials/)
+[Silvia Sapora guide for preparing for ML Engineer Interviews](https://silviasapora.github.io/blog/ml-interviews.html)

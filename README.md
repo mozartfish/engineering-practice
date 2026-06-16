@@ -29,6 +29,7 @@ The materials and exercises here were developed by the following people:
 - `Hugging Face Audio Course` - [website](https://huggingface.co/learn/audio-course/chapter0/introduction)
 - `Generative AI for Music and Audio Creation`[website](https://hermandong.com/teaching/pat464_564_winter2026/)
 - [Advent of Code](https://adventofcode.com/)
+- [neetcode](https://neetcode.io/)
 
 ### Datasets
 

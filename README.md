@@ -44,7 +44,7 @@ The materials and exercises here were developed by the following people:
 - [Digital Signals Theory - Brian McFee](https://brianmcfee.net/dstbook-site/content/intro.html)
 - [Fundamentals of Music Processing - Meinard Mueller](https://www.audiolabs-erlangen.de/resources/MIR/FMP/C0/C0.html)
 - [Kalman and Bayesian Filters in Python - Roger Labbe](https://rlabbe.github.io/Kalman-and-Bayesian-Filters-in-Python/)
-- [How to Scale Your Model](https://jax-ml.github.io/scaling-book/) 
+- [How to Scale Your Model](https://jax-ml.github.io/scaling-book/)
 
 ### Important Documentation
 
@@ -58,6 +58,8 @@ The materials and exercises here were developed by the following people:
 
 - `The Monster Text To Speech and Voice Cloning Course` [playlist](https://youtube.com/playlist?list=PL-wATfeyAMNorsfMFg0ISfD0rPDpMHA4R&si=SmT7E5J2HnCCAnv_)
 
-### Resources 
-[ISMIR Education Materials](https://ismir.net/resources/educational-materials/)
-[Silvia Sapora guide for preparing for ML Engineer Interviews](https://silviasapora.github.io/blog/ml-interviews.html)
+### Resources
+
+- [ISMIR Education Materials](https://ismir.net/resources/educational-materials/)
+
+- [Silvia Sapora guide for preparing for ML Engineer Interviews](https://silviasapora.github.io/blog/ml-interviews.html)

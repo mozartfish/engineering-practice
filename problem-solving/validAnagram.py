@@ -9,8 +9,8 @@ class Solution:
             charCount[ord(s[i]) - ord("a")] += 1
             charCount[ord(t[i]) - ord("a")] -= 1
 
-        for i in range(len(charCount)):
-            if charCount[i] != 0:
+        for count in charCount:
+            if count != 0:
                 return False
 
         return True

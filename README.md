@@ -25,6 +25,7 @@ The materials and exercises here were developed by the following people:
 - `Generating Sound with Neural Networks` - [playlist](https://youtube.com/playlist?list=PL-wATfeyAMNpEyENTc-tVH5tfLGKtSWPp&si=pzdN4feL-nnkk5Pe)
 - `Melody Generation with RNN-LSTM` - [playlist](https://youtube.com/playlist?list=PL-wATfeyAMNr0KMutwtbeDCmpwvtul-Xz&si=OptLaX4Zm7mhovlo)
 - `Generative Music AI Course` - [playlist](https://youtube.com/playlist?list=PL-wATfeyAMNqAPjwGT3ikEz3gMo23pl-D&si=PLy51MTGZgFsR9wi)
+- `Hugging Face Audio Course` - [website](https://huggingface.co/learn/audio-course/chapter0/introduction)
 - `Music and AI - Herman Dong` - [playlist](https://youtube.com/playlist?list=PL60KY8VSvHggZD_Uym-GA7v5RWu4KrBCL&si=q2twcNikfPygukdR)
 - `Generative AI for Music and Audio Creation - Herman Dong` - [website](https://hermandong.com/teaching/pat464_564_winter2026/)
 - [Advent of Code](https://adventofcode.com/)

@@ -12,23 +12,29 @@ The materials and exercises here were developed by the following people:
 - [Meinard Müller](https://www.audiolabs-erlangen.de/fau/professor/mueller)
 
 ## COMPLETED
+
 - `Audio Signal Processing for Machine Learning` - [playlist](https://youtube.com/playlist?list=PL-wATfeyAMNqIee7cH3q1bh4QJFAaeNv0&si=Ex-CT67S-tvs1EoW)
 
 ## IN PROGRESS
+
 - `Deep Learning for Audio with Python` - [playlist](https://youtube.com/playlist?list=PL-wATfeyAMNrtbkCNsLcpoAyBBRJZVlnf&si=g7CyOypRnnB475Ee)
 
 ## TODO
+
 - `PyTorch for Audio + Music Processing` - [playlist](https://youtube.com/playlist?list=PL-wATfeyAMNoirN4idjev6aRu8ISZYVWm&si=y9udDNji0F8P835J)
 - `Audio Data Augmentation` - [playlist](https://youtube.com/playlist?list=PL-wATfeyAMNoR4aqS-Fv0GRmS6bx5RtTW&si=Xx4Fe8mE_N4e9jNK)
 - `Generating Sound with Neural Networks` - [playlist](https://youtube.com/playlist?list=PL-wATfeyAMNpEyENTc-tVH5tfLGKtSWPp&si=pzdN4feL-nnkk5Pe)
 - `Melody Generation with RNN-LSTM` - [playlist](https://youtube.com/playlist?list=PL-wATfeyAMNr0KMutwtbeDCmpwvtul-Xz&si=OptLaX4Zm7mhovlo)
 - `Generative Music AI Course` - [playlist](https://youtube.com/playlist?list=PL-wATfeyAMNqAPjwGT3ikEz3gMo23pl-D&si=PLy51MTGZgFsR9wi)
-- `Hugging Face Audio Course` - [website](https://huggingface.co/learn/audio-course/chapter0/introduction)
+- [Frechet Audio Distance](https://youtu.be/oCn02gUD8MU?si=ovfuVZAbGTOVamBT)
+- [Rich Music Representation Is All You Need](https://youtu.be/a7Y3bFyRQ8k?si=pcQKRKYY673mbRCz)
 
 ### Under Development
+
 - `The Monster Text To Speech and Voice Cloning Course` [playlist](https://youtube.com/playlist?list=PL-wATfeyAMNorsfMFg0ISfD0rPDpMHA4R&si=SmT7E5J2HnCCAnv_)
 
 ### Datasets
+
 - `NSYNTH` - [Magenta](https://magenta.withgoogle.com/nsynth)
 - `MAESTRO` - [Magenta](https://magenta.withgoogle.com/datasets/maestro)
 - `UrbanSound8K` - [MARL](https://urbansounddataset.weebly.com/), [kaggle](https://www.kaggle.com/datasets/chrisfilo/urbansound8k)
@@ -36,12 +42,14 @@ The materials and exercises here were developed by the following people:
 - `GTZAN` - [kaggle](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification)
 
 ### Textbooks
+
 - [Digital Signals Theory - Brian McFee](https://brianmcfee.net/dstbook-site/content/intro.html)
 - [Fundamentals of Music Processing - Meinard Mueller](https://www.audiolabs-erlangen.de/resources/MIR/FMP/C0/C0.html)
 - [Kalman and Bayesian Filters in Python - Roger Labbe](https://rlabbe.github.io/Kalman-and-Bayesian-Filters-in-Python/)
 - [How to Scale Your Model](https://jax-ml.github.io/scaling-book/)
 
 ### Important Documentation
+
 - [TorchAudio](https://docs.pytorch.org/audio/stable/index.html)
 - [TorchCodec](https://meta-pytorch.org/torchcodec/stable/index.html)
 - [TorchInfo](https://github.com/tyleryep/torchinfo)
@@ -49,9 +57,14 @@ The materials and exercises here were developed by the following people:
 - [Torch](https://docs.pytorch.org/docs/2.12/index.html)
 
 ### Resources
+
 - [ISMIR Education Materials](https://ismir.net/resources/educational-materials/)
+- [Meinard Müller PCPT PyTorch](https://audiolabs-erlangen.de/resources/MIR/PCPT/PCPT.html)
+- [Meinard Müller FMP Notebooks](https://www.audiolabs-erlangen.de/resources/MIR/FMP/C0/C0.html)
+- [Meinard Müller PCP Notebooks](https://www.audiolabs-erlangen.de/resources/MIR/PCP/PCP.html)
 - [Silvia Sapora guide for preparing for ML Engineer Interviews](https://silviasapora.github.io/blog/ml-interviews.html)
 
 ### Programming Puzzles
+
 - [Advent of Code](https://adventofcode.com/)
 - [neetcode](https://neetcode.io/)

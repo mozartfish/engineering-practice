@@ -2,62 +2,75 @@ import numpy as np
 
 
 class MLP:
-    def __init__(self, num_inputs=3, num_hidden=[3, 5], num_outputs=2, debug=False):
+    def __init__(self, num_inputs=3, hidden_layers=None, num_outputs=2):
         """
+        Constructor for a multi-layer-perceptron(MLP).
         Args:
-            num_inputs - number of neurons in input layer
-            num_hidden - list containing integers. each integer represents the number of neurons in a hidden layer
-            num_outputs - number of neurons in output layer
+            num_inputs(int): number of neurons in the input layer
+            hidden_layers = (list[int], optional): Number of neurons in each hidden layer.
+            num_outputs(int): Number of neurons in the output layer
         """
+
+        if hidden_layers is None:
+            hidden_layers = [3, 5]
+
         self.num_inputs = num_inputs
-        self.num_hidden = num_hidden
+        self.hidden_layers = hidden_layers
         self.num_outputs = num_outputs
 
-        # internal representation of the layers
-        # each number represents the number of neurons in a layer
-        layers = [self.num_inputs] + self.num_hidden + [self.num_outputs]
-        if debug:
-            print(f"number of neurons in each layer: {layers}")
+        # layer representation
+        layers = [num_inputs] + hidden_layers + [num_outputs]
 
-        # initiate random weights
-        self.weights = []
-        for i in range(len(layers) - 1):
-            # w - matrix whose dimensions are the number of neurons in the current layer x number of neurons in the next
-            # layer for matrix multiplication
-            w = np.random.rand(layers[i], layers[i + 1])
-            self.weights.append(w)
+        # initialize network weights
+        self.weights = [
+            np.random.rand(layers[i], layers[i + 1]) for i in range(len(layers) - 1)
+        ]
 
     def forward_propagate(self, inputs):
         """
-        Computes forward propagation of the network based on input signals
+        Computes forward propagation of the network based on input signals.
+
         Args:
-            inputs: input signals
+            inputs(np.ndarray): input signals
+
         Returns:
-            activations: output values
+            nd.array: Output layer activations
         """
+
+        # input layer activations = input layer
         activations = inputs
+
         for w in self.weights:
-            # calculate net inputs(h) for a given layer
+            # compute previous activation with the current weight matrix
             net_inputs = activations @ w
 
-            # calculate the activations(a) for a given layer
+            # apply activation function to the net input
             activations = self._sigmoid(net_inputs)
 
         return activations
 
     def _sigmoid(self, x):
+        """
+        Activation Function - Sigmoid is very common. there are many others like RELU, TANH etc
+        Activation functions should be differentiable continuous functions because we need to take the gradient
+
+        Args:
+            x(float): input value to be processed
+        Returns:
+            y(float): output of the function
+        """
         return 1.0 / (1.0 + np.exp(-x))
 
 
 if __name__ == "__main__":
-    # create multi-layer-perceptron
-    mlp = MLP()
+    # create a multi-layer perceptron
+    mlp = MLP(num_inputs=3, hidden_layers=[3, 5], num_outputs=2)
 
-    # create inputs
-    inputs = np.random.rand(mlp.num_inputs)
+    # set random values for network input
+    input = np.random.rand(mlp.num_inputs)
 
-    # perform forward propagation
-    outputs = mlp.forward_propagate(inputs)
+    # perform forward pass
+    output = mlp.forward_propagate(input)
 
     # print results
-    print(f"network inputs: {inputs} | network outputs: {outputs}")
+    print(f"network input: {input} | network output: {output}")

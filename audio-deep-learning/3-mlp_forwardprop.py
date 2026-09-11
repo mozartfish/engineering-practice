@@ -2,7 +2,7 @@ import numpy as np
 
 
 class MLP:
-    def __init__(self, num_inputs=3, hidden_layers=None, num_outputs=2):
+    def __init__(self, num_inputs=3, hidden_layers=None, num_outputs=2, rng=None):
         """
         Constructor for a multi-layer-perceptron(MLP).
         Args:
@@ -13,17 +13,20 @@ class MLP:
 
         if hidden_layers is None:
             hidden_layers = [3, 5]
+        if rng is None:
+            rng = np.random.default_rng(seed=42)
 
         self.num_inputs = num_inputs
         self.hidden_layers = hidden_layers
         self.num_outputs = num_outputs
+        self._rng = rng
 
         # layer representation
         layers = [num_inputs] + hidden_layers + [num_outputs]
 
         # initialize network weights
         self.weights = [
-            np.random.rand(layers[i], layers[i + 1]) for i in range(len(layers) - 1)
+            self._rng.random((layers[i], layers[i + 1])) for i in range(len(layers) - 1)
         ]
 
     def forward_propagate(self, inputs):
@@ -63,11 +66,13 @@ class MLP:
 
 
 if __name__ == "__main__":
+    rng = np.random.default_rng(seed=42)
+
     # create a multi-layer perceptron
-    mlp = MLP(num_inputs=3, hidden_layers=[3, 5], num_outputs=2)
+    mlp = MLP(num_inputs=3, hidden_layers=[3, 5], num_outputs=2, rng=rng)
 
     # set random values for network input
-    input = np.random.rand(mlp.num_inputs)
+    input = rng.random(mlp.num_inputs)
 
     # perform forward pass
     output = mlp.forward_propagate(input)

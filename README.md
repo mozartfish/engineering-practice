@@ -15,13 +15,14 @@ The materials and exercises here were developed by the following people:
 
 - `Audio Signal Processing for Machine Learning` - [playlist](https://youtube.com/playlist?list=PL-wATfeyAMNqIee7cH3q1bh4QJFAaeNv0&si=Ex-CT67S-tvs1EoW)
 
+- `Deep Learning for Audio with Python` - [playlist](https://youtube.com/playlist?list=PL-wATfeyAMNrtbkCNsLcpoAyBBRJZVlnf&si=g7CyOypRnnB475Ee)
+
 ## IN PROGRESS
 
-- `Deep Learning for Audio with Python` - [playlist](https://youtube.com/playlist?list=PL-wATfeyAMNrtbkCNsLcpoAyBBRJZVlnf&si=g7CyOypRnnB475Ee)
+- `PyTorch for Audio + Music Processing` - [playlist](https://youtube.com/playlist?list=PL-wATfeyAMNoirN4idjev6aRu8ISZYVWm&si=y9udDNji0F8P835J)
 
 ## TODO
 
-- `PyTorch for Audio + Music Processing` - [playlist](https://youtube.com/playlist?list=PL-wATfeyAMNoirN4idjev6aRu8ISZYVWm&si=y9udDNji0F8P835J)
 - `Audio Data Augmentation` - [playlist](https://youtube.com/playlist?list=PL-wATfeyAMNoR4aqS-Fv0GRmS6bx5RtTW&si=Xx4Fe8mE_N4e9jNK)
 - `Generating Sound with Neural Networks` - [playlist](https://youtube.com/playlist?list=PL-wATfeyAMNpEyENTc-tVH5tfLGKtSWPp&si=pzdN4feL-nnkk5Pe)
 - `Melody Generation with RNN-LSTM` - [playlist](https://youtube.com/playlist?list=PL-wATfeyAMNr0KMutwtbeDCmpwvtul-Xz&si=OptLaX4Zm7mhovlo)
